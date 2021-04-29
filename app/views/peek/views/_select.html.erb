@@ -1,0 +1,4 @@
+<%= select_tag view.name,
+  options_for_select(view.collection, view.selected(controller)),
+  class: "peek-select-control",
+  onchange: view.onchange %>
