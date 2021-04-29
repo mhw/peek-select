@@ -5,7 +5,11 @@ Peek into any collection in your app.
 Things this peek view provides:
 
 - Present options from a collection as a select list
-- Navigate to a URL when an option is selected
+- Run a piece of JavaScript code when an option is selected
+
+An example use would be to list subdomains served by an application
+and switch between them when a new option is selected, as in
+[Usage](#usage) below.
 
 ## Installation
 
