@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Peek::Select::VERSION
   gem.authors       = ['Mark Wilkinson']
   gem.email         = ['mhw@dangerous-techniques.com']
-  gem.description   = %q{Take a peek into any data source in your Rails application.}
-  gem.summary       = %q{Take a peek into any data source in your Rails application.}
+  gem.description   = %q{Take a peek into any collection in your Rails application. A view for https://github.com/peek/peek.}
+  gem.summary       = %q{Take a peek into any collection in your Rails application. A view for https://github.com/peek/peek.}
   gem.homepage      = 'https://github.com/mhw/peek-select'
 
   gem.files         = `git ls-files`.split($/)
