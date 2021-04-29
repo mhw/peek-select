@@ -30,7 +30,7 @@ Or install it yourself as:
 Add something like the following to your `config/initializers/peek.rb`:
 
 ```ruby
-Peek.into Peek::Views::Select, \
+Peek.into Peek::Views::Select,
   collection: lambda { Site.order(:subdomain).pluck(:name, :subdomain) },
   selected: lambda { |controller| controller.current_site.subdomain },
   onchange: "window.location.hostname=" \
