@@ -31,6 +31,8 @@ module Peek
       def selected(controller)
         if @selected.respond_to?(:call)
           @selected.call(controller)
+        else
+          @selected
         end
       end
 
